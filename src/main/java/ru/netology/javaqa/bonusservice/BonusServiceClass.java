@@ -1,3 +1,5 @@
+package ru.netology.javaqa.bonusservice;
+
 public class BonusServiceClass {
 
     public long calculate(long amount, boolean registered) {
@@ -9,5 +11,6 @@ public class BonusServiceClass {
         }
         return bonus;
     }
+
 
 }
